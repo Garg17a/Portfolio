@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(149, 149, 158);
+        font-size: 1.04rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 89px;
+        margin-top: 2px;
+      }
+
+      .left {
+        font-size: 1.8rem;
+      }
+
+      .right ul li {
+        font-size: 18px;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 15px 0;
+        align-items: center;
+      }
+
+      .firstSection > div {
+        width: 45%;
+        margin: 50px 0;
+      }
+
+      .leftSection {
+        font-size: 1.9rem;
+      }
+
+      .leftSection .buttons {
+        padding: 30px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+
+      .purple {
+        color: blueviolet;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      /* CSS for Work Experience Section */
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  padding: 50px 0;
+  color: white;
+}
+
+.secondSection h1 {
+  font-size: 1.7rem;
+  margin-left: -20px;
+}
+
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 80px;
+  width: 1px;
+  background-color: white;
+  margin: 0 120px;
+}
+
+.secondSection .image-top {
+  width: 23px;
+  position: relative;
+  top: -35px;
+  left: -9px;
+}
+
+.secondSection .vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.secondSection .vertical-desc {
+  position: relative;
+  top: 85px;
+  color: grey;
+  width: 200px;
+  font-size: 12px;
+}
+
+.secondSection .text-gray {
+padding: 30px;
+margin-left:-63px;
+}
+
+
+      .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .thirdSection h1 {
+  font-size: 1.7rem;
+  margin-left: -20px;
+}
+
+.thirdSection .text-gray {
+padding: 30px;
+margin-left:-63px;
+}
+
+      .forthSection {
+        max-width: 80vw;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .forthSection h1 {
+        font-size: 1.7rem;
+      }
+
+      .forthSection .text-gray {
+        padding: 20px 0;
+      }
+
+    
+
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -35px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 10px;
+        width: 150px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 20px;
+        color: grey;
+        width: 550px;
+        font-size: 12px;
+      }
+
+      footer{
+        height:auto;
+        margin-top: 350px;
+        background-color: #0e0e1a;
+       }
+       .footer{
+        display: flex;
+        padding: 10px 70px;
+        justify-content: space-evenly;
+        margin-bottom: auto;
+       }
+
+       .footer ul{
+        list-style: none;
+       }
+
+       .footer > div{
+        width: 223px;
+       }
+
+       footer .footer-rights{
+        text-align: center;
+        color: grey;
+        padding: 30px 0;
+       }
+
+
+       .footer-first{
+        font-size: 25px;
+        margin-right: 16%;
+        margin-left: 10%;
+       }
+
+       .footer-second{
+        font-size: 30px;
+        /* margin-right: 16%;
+        margin-left: 10%; */
+       }
+
+       .footer-third{
+        font-size: 30px;
+        /* margin-right: 16%;
+        margin-left: 10%; */
+       }
+
+       .footer-fourth{
+        font-size: 30px;
+        /* margin-right: 16%;
+        margin-left: 10%; */
+       }
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Himanshu Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Home Section -->
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Himanshu</span> and I am a passionate
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="/resume_himanshu1.pdf" class="btn" download>Download Resume</a>
+            <a href="https://github.com/Garg17a" class="btn" target="_blank">Visit GitHub</a>
+          </div>
+        </div>
+        
+        <div class="rightSection">
+          <img src="/image.png.png" alt="" />
+        </div>
+      </section>
+      <hr>
+
+      <!-- About Section -->
+    
+      <section id="about-section">
+        <section class="secondSection">
+          <span class="text-gray">What I have done so far</span>
+          <h1>About Me</h1>
+          <br>
+          <!-- Add your about content here -->
+          <h3>
+            I am Himanshu and I am from Yamunanagar, Haryana. I graduated with a
+            Bachelor of Engineering in Computer Science from Chandigarh University.
+          </h3>
+          <br />
+          <h3>
+            Talking about my work experience before, I worked as a Software
+            Development Intern at High Radius Company, Hyderabad. My role
+        </h3>
+        <br />
+
+        <h2>
+          My technical skills:
+        </h2>
+        <br />
+
+        <h4>• Programming Languages: C++, Python, Java, PHP, Data Structure and Algorithm, OOPS Concepts.</h4>
+        <br />
+        <h4>• Web Development: HTML, CSS, JavaScript, React, Django, Bootstrap, API, Git/GitHub.</h4>
+        <br />
+        <h4>• Database: Database Management System (DBMS), Structured Query Language (SQL), PL/SQL, MongoDB.</h4>
+        <br />
+        <h4>• Software Development Tools: IntelliJ IDEA, Eclipse, Dev C++, PyCharm, Visual Studio Code</h4>
+        <br />
+        <h4>• Additional Skills: Analytical Skills, Problem-solving skills, Communication, Team Work, Self-Motivated, Analytical Abilities</h4>
+        <br />
+      </section>
+    </section>
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects-section">
+      <section class="thirdSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>My Projects</h1>
+        <br >
+        <br>
+
+        <!-- Add your project content here -->
+        <h2><u>AI-enabled FinTech B2B Invoice Management Application</u></h2>
+        <br />
+        <h4>• Developed an AI-enabled FinTech B2B Invoice Management Application</h4>
+        <br />
+        <h4>• Designed and developed a user-friendly web application for Accounts Receivable, enhancing invoice data viewing and analysis.</h4>
+        <br />
+        <h4>• Implemented data pre-processing techniques, including EDA and feature engineering, for data integrity and account-level analytics.</h4>
+        <br />
+        <h4>• Proficient in NumPy, Pandas, HTML, CSS, and JavaScript for data manipulation, frontend development, and enhancing user experience.</h4>
+        <br />
+        <h4>• Acquired knowledge in relational database programming SQL - DML,DDL, Tables, Views, Joins, functions.</h4>
+        <br />
+        <h4>• Tech Used - Java, Python, HTML, CSS, Javascript, Reactjs, Numpy, Pandas, Data Visualization, Data Cleaning, DBMS, SQL.</h4>
+        <br />
+        <br />
+
+        <h2><u>Ro-Sham-Bo Game Application</u></h2>
+        <br />
+        <h4>• Ro-Sham-Bo game is often used as a fair choosing game playing between two people, similar to Coin Flipping, drawing straws, or throwing dice in order to settle a dispute or make an unbiased group decision.</h4>
+        <br />
+        <h4>• Using the game to learn mind reading and strategic planning.</h4>
+        <br />
+        <h4>• The best part of the game is that players don’t need to use the buttons. Players have to just show some signs in front of the camera.</h4>
+        <br />
+        <h4>• Game will predict the input of the user and system will generate the computer output at the same time.</h4>
+        <br />
+        <h4>• Tech Used - Python, Open CV, Image Processing, Python Imaging Library (PIL)</h4>
+        <br />
+        <br />
+
+        <h2><u>Airline Registration System</u></h2>
+        <br />
+        <h4>• Built an application to book a flight of a particular country of choice, and users receive the ticket by filling in all the important details.</h4>
+        <br />
+        <h4>• Users can also choose the date and time of the flight according to their choice.</h4>
+        <br />
+        <h4>• If passengers change their mind and want to cancel the reservation, they can cancel their reservation at any time.</h4>
+        <br />
+        <h4>• This software provides a list of reservations done by the passengers.</h4>
+        <br />
+        <h4>• Tech Used – C++, OOPs</h4>
+        <br />
+        <br />
+
+        <h2><u>Covid 19 Analysis- Python Project</u></h2>
+        <br />
+        <h4>• In this Project, I analyzed COVID-19 datasets, performed visualizations on active and recovered cases.</h4>
+        <br />
+        <h4>• Developed predictive models for daily COVID-19 cases in different states, aiding decision-making.</h4>
+        <br />
+        <h4>• Calculated key metrics like the current doubling rate of confirmed cases.</h4>
+        <br />
+        <h4>• Tech Used – Python, Pandas, Numpy, Statistics, Scikit-Learn, Machine Learning, SQL, Excel.</h4>
+        <br />
+        <br />
+      </section>
+    </section>
+    <hr>
+
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="/Persistant.jpg" alt="" />
+          <div class="vertical-title"> Junior Software Developer | InstaRef (Nov 2023-Present)</div>
+          <div class="vertical-desc">
+            • Developed an Medical Test Laboratory Application for different medical laboratory tests.
+            • Worked as a Backend Developer and daily role includes API for application dashboard.
+         
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="/image2.png" alt="" />
+          <div class="vertical-title">Software Developer | Kodnest (June 2023- Nov 2023)</div>
+          <div class="vertical-desc">
+            • Passionate Java and Python Full Stack intern with hands-on experience in developing robust web applications.
+            • Proficient in Java, Spring Boot, HTML, CSS, JavaScript, and relational databases.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="/PERSISTENT.NS.png" alt="" />
+          <div class="vertical-title">Software Development Intern | High Radius (Jan 2022-Apr 2022)</div>
+          <div class="vertical-desc">
+            • Developed an AI-enabled FinTech B2B Invoice Management Application
+            • Designed and developed user-friendly web application for Accounts Receivable, enhancing invoice data viewing and analysis.
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Himanshu Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <!-- <li>Home</li> -->
+            <li>About</li>
+            <!-- <li>Services</li>
+            <li>Contact</li> -->
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+            <li>Services</li>
+            <!-- <li>Contact</li> -->
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <!-- <li>Home</li>
+            <li>About</li>
+            <li>Services</li> -->
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        Copyright &#169; <a>garg80601@gmail.com</a> | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Developer", "Backend Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
